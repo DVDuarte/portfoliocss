@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css\Style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio website</title>
+</head>
+
+<body>
+    <div class="background">
+        <nav>
+            <h2 class="logo">Meu <span>portfólio</span></h2>
+            <ul class="cabeçalho-link">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="index.html#1">Sobre mim</a></li>
+                <li><a href="formacao.html">Formação</a></li>
+                <li><a href="atuacaoprofissional.html">Atuação Profissional</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="tecnologia.html">Tecnologia</a></li>
+            </ul>
+        </nav>
+
+        <section class="background-color-Sobre">
+            <div class="sobre">
+                <div class="texto-sobre">
+                    <h2>Contato</h2>
+                    <p>Entre em contato comigo através do meu e-mail danielvitasso@gmail.com ou preenchendo o
+                        formulário de contato abaixo.
+                    <h5>Acesse também minhas redes sociais<br></h5>
+                    <button type="button">
+                        <a href="https://www.linkedin.com/in/dvduarte" target="_blank">Linkedin</a><br>
+                    </button>
+                    <button type="button">
+                        <a href="https://twitter.com/danielvitasso" target="_blank">Twitter</a><br>
+                    </button>
+                    <button type="button">
+                        <a href="https://github.com/DVDuarte" target="_blank">Github</a>
+                    </button>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+
+        <div class="serviços">
+            <div class="titulo">
+                <h2>Formulário</h2>
+            </div>
+
+            <form action="\formulario.html" method="get">
+
+                <div class="Caixa">
+                    <div class="formulario">
+                        <br>
+                        <h5>Digite seu nome:</h5>
+                        <div class="Paragrafo-button">
+                            <p>
+                                <label for="nome">*Nome:</label><br>
+                                <input type="text" id="nome" name="nome" required><br><br>
+                                <label for="sobrenome">Sobrenome:</label><br>
+                                <input type="text" id="sobrenome" name="sobrenome"><br><br>
+                                <label for="ativo">*Possui Cadastro:</label>
+                                <input type="checkbox" name="ativo" value="ativo" required><br><br>
+                            <fieldset>
+                                <legend>
+                                    *Sexo
+                                </legend>
+                                <label for="masculino"></label>
+                                <input type="radio" required id="masculino" name="sexo">Masculino<br>
+                                <label for="feminino"></label>
+                                <input type="radio" required id="feminino" name="sexo">Feminino<br>
+                            </fieldset><br><br>
+
+                            <label for="estadoCivil">Estado civil:</label>
+                            <select name="estadoCivil" id="estadoCivil">
+                                <option value="Casado">Casado</option>
+                                <option value="Solteiro">Solteiro</option>
+                                <option value="Viuvo">Viuvo</option>
+
+                            </select><br><br>
+                            <label for="imgPerfil">Foto do seu problema ou sugestão:</label>
+                            <input type="file" id="imgPerfil" name="imgPerfil" accept="image/*"><br><br>
+                            <label for="mensagem">*Digite sua mensagem:</label><br>
+                            <textarea id="mensagem" rows="10" cols="40" required></textarea><br><br>
+                            <label for="enviar">Se tiver concluído clique em enviar</label><br>
+                            <input class="botao-formulario" type="submit" id="enviar">
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+        </div>
+        </form>
+
+        <footer>
+            <h6>Daniel Duarte</h6>
+            <p>Este foi meu site feito para a aula de Desenvolvimento Web</p>
+            <div class="Redes-sociais">
+                <a href="https://www.linkedin.com/in/dvduarte" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/danielvduarte_" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://github.com/DVDuarte" target="_blank"><i class="fab fa-github" target="_blank"></i></a>
+            </div>
+            <p class="fim">2º Período Sistema de Informação FMG - 2022</p>
+        </footer>
+
+
+</body>
+
+</html>
